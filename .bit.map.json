@@ -1,0 +1,98 @@
+{
+    "global/clone-data-object": {
+        "files": [
+            {
+                "relativePath": "src/global/cloneDataObject.js",
+                "test": false,
+                "name": "cloneDataObject.js"
+            },
+            {
+                "relativePath": "test/global/cloneDataObject.spec.js",
+                "test": true,
+                "name": "cloneDataObject.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/global/cloneDataObject.js"
+    },
+    "global/is-mobile": {
+        "files": [
+            {
+                "relativePath": "src/global/isMobile.js",
+                "test": false,
+                "name": "isMobile.js"
+            },
+            {
+                "relativePath": "test/global/isMobile.spec.js",
+                "test": true,
+                "name": "isMobile.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/global/isMobile.js"
+    },
+    "format-date/format12h": {
+        "files": [
+            {
+                "relativePath": "src/formatDate/format12h.js",
+                "test": false,
+                "name": "format12h.js"
+            },
+            {
+                "relativePath": "test/formatDate/format12h.spec.js",
+                "test": true,
+                "name": "format12h.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/formatDate/format12h.js"
+    },
+    "format-date/get-double-digit": {
+        "files": [
+            {
+                "relativePath": "src/formatDate/getDoubleDigit.js",
+                "test": false,
+                "name": "getDoubleDigit.js"
+            },
+            {
+                "relativePath": "test/formatDate/getDoubleDigit.spec.js",
+                "test": true,
+                "name": "getDoubleDigit.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/formatDate/getDoubleDigit.js"
+    },
+    "platform-detection/detect-os": {
+        "files": [
+            {
+                "relativePath": "src/platformDetection/detectOs.js",
+                "test": false,
+                "name": "detectOs.js"
+            },
+            {
+                "relativePath": "test/platformDetection/detectOs.spec.js",
+                "test": true,
+                "name": "detectOs.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/platformDetection/detectOs.js"
+    },
+    "platform-detection/detect-os-version": {
+        "files": [
+            {
+                "relativePath": "src/platformDetection/detectOsVersion.js",
+                "test": false,
+                "name": "detectOsVersion.js"
+            },
+            {
+                "relativePath": "test/platformDetection/detectOsVersion.spec.js",
+                "test": true,
+                "name": "detectOsVersion.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/platformDetection/detectOsVersion.js"
+    }
+}
