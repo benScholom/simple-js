@@ -94,5 +94,80 @@
         ],
         "origin": "AUTHORED",
         "mainFile": "src/platformDetection/detectOsVersion.js"
+    },
+    "array/shuffle": {
+        "files": [
+            {
+                "relativePath": "src/array/shuffle.js",
+                "test": false,
+                "name": "shuffle.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/array/shuffle.js"
+    },
+    "date/add": {
+        "files": [
+            {
+                "relativePath": "src/date/add.js",
+                "test": false,
+                "name": "add.js"
+            },
+            {
+                "relativePath": "test/date/add.spec.js",
+                "test": true,
+                "name": "add.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/date/add.js"
+    },
+    "date/diff": {
+        "files": [
+            {
+                "relativePath": "src/date/diff.js",
+                "test": false,
+                "name": "diff.js"
+            },
+            {
+                "relativePath": "test/date/diff.spec.js",
+                "test": true,
+                "name": "diff.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/date/diff.js"
+    },
+    "string/reverse": {
+        "files": [
+            {
+                "relativePath": "src/string/reverse.js",
+                "test": false,
+                "name": "reverse.js"
+            },
+            {
+                "relativePath": "test/string/reverse.spec.js",
+                "test": true,
+                "name": "reverse.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/string/reverse.js"
+    },
+    "url/parse": {
+        "files": [
+            {
+                "relativePath": "src/url/parse.js",
+                "test": false,
+                "name": "parse.js"
+            },
+            {
+                "relativePath": "test/url/parse.spec.js",
+                "test": true,
+                "name": "parse.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/url/parse.js"
     }
 }
