@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import dateAdd from '../../src/date/add';
+import dateAdd from '../../src/time/dateAdd';
 
 describe('dateAdd()', () => {
   it('should return a date in the future when current date is passed with a positive increment', () => {

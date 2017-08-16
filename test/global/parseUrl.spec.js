@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import parseUrl from '../../src/url/parse';
+import parseUrl from '../../src/global/parseUrl';
 
 describe('parseUrl', () => {
   it('should return an object with a defined href property when a url is passed', () => {

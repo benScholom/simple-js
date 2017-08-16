@@ -1,4 +1,36 @@
 {
+    "format-date/format12h": {
+        "files": [
+            {
+                "relativePath": "src/formatDate/format12h.js",
+                "test": false,
+                "name": "format12h.js"
+            },
+            {
+                "relativePath": "test/formatDate/format12h.spec.js",
+                "test": true,
+                "name": "format12h.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/formatDate/format12h.js"
+    },
+    "format-date/get-double-digit": {
+        "files": [
+            {
+                "relativePath": "src/formatDate/getDoubleDigit.js",
+                "test": false,
+                "name": "getDoubleDigit.js"
+            },
+            {
+                "relativePath": "test/formatDate/getDoubleDigit.spec.js",
+                "test": true,
+                "name": "getDoubleDigit.spec.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/formatDate/getDoubleDigit.js"
+    },
     "global/clone-data-object": {
         "files": [
             {
@@ -31,37 +63,48 @@
         "origin": "AUTHORED",
         "mainFile": "src/global/isMobile.js"
     },
-    "format-date/format12h": {
+    "global/parse-url": {
         "files": [
             {
-                "relativePath": "src/formatDate/format12h.js",
+                "relativePath": "src/global/parseUrl.js",
                 "test": false,
-                "name": "format12h.js"
+                "name": "parseUrl.js"
             },
             {
-                "relativePath": "test/formatDate/format12h.spec.js",
+                "relativePath": "test/global/parseUrl.spec.js",
                 "test": true,
-                "name": "format12h.spec.js"
+                "name": "parseUrl.spec.js"
             }
         ],
         "origin": "AUTHORED",
-        "mainFile": "src/formatDate/format12h.js"
+        "mainFile": "src/global/parseUrl.js"
     },
-    "format-date/get-double-digit": {
+    "global/reverse-string": {
         "files": [
             {
-                "relativePath": "src/formatDate/getDoubleDigit.js",
+                "relativePath": "src/global/reverseString.js",
                 "test": false,
-                "name": "getDoubleDigit.js"
+                "name": "reverseString.js"
             },
             {
-                "relativePath": "test/formatDate/getDoubleDigit.spec.js",
+                "relativePath": "test/global/reverseString.spec.js",
                 "test": true,
-                "name": "getDoubleDigit.spec.js"
+                "name": "reverseString.spec.js"
             }
         ],
         "origin": "AUTHORED",
-        "mainFile": "src/formatDate/getDoubleDigit.js"
+        "mainFile": "src/global/reverseString.js"
+    },
+    "global/shuffle": {
+        "files": [
+            {
+                "relativePath": "src/global/shuffle.js",
+                "test": false,
+                "name": "shuffle.js"
+            }
+        ],
+        "origin": "AUTHORED",
+        "mainFile": "src/global/shuffle.js"
     },
     "platform-detection/detect-os": {
         "files": [
@@ -95,79 +138,36 @@
         "origin": "AUTHORED",
         "mainFile": "src/platformDetection/detectOsVersion.js"
     },
-    "array/shuffle": {
+    "time/date-add": {
         "files": [
             {
-                "relativePath": "src/array/shuffle.js",
+                "relativePath": "src/time/dateAdd.js",
                 "test": false,
-                "name": "shuffle.js"
-            }
-        ],
-        "origin": "AUTHORED",
-        "mainFile": "src/array/shuffle.js"
-    },
-    "date/add": {
-        "files": [
-            {
-                "relativePath": "src/date/add.js",
-                "test": false,
-                "name": "add.js"
+                "name": "dateAdd.js"
             },
             {
-                "relativePath": "test/date/add.spec.js",
+                "relativePath": "test/time/dateAdd.spec.js",
                 "test": true,
-                "name": "add.spec.js"
+                "name": "dateAdd.spec.js"
             }
         ],
         "origin": "AUTHORED",
-        "mainFile": "src/date/add.js"
+        "mainFile": "src/time/dateAdd.js"
     },
-    "date/diff": {
+    "time/date-diff": {
         "files": [
             {
-                "relativePath": "src/date/diff.js",
+                "relativePath": "src/time/dateDiff.js",
                 "test": false,
-                "name": "diff.js"
+                "name": "dateDiff.js"
             },
             {
-                "relativePath": "test/date/diff.spec.js",
+                "relativePath": "test/time/dateDiff.spec.js",
                 "test": true,
-                "name": "diff.spec.js"
+                "name": "dateDiff.spec.js"
             }
         ],
         "origin": "AUTHORED",
-        "mainFile": "src/date/diff.js"
-    },
-    "string/reverse": {
-        "files": [
-            {
-                "relativePath": "src/string/reverse.js",
-                "test": false,
-                "name": "reverse.js"
-            },
-            {
-                "relativePath": "test/string/reverse.spec.js",
-                "test": true,
-                "name": "reverse.spec.js"
-            }
-        ],
-        "origin": "AUTHORED",
-        "mainFile": "src/string/reverse.js"
-    },
-    "url/parse": {
-        "files": [
-            {
-                "relativePath": "src/url/parse.js",
-                "test": false,
-                "name": "parse.js"
-            },
-            {
-                "relativePath": "test/url/parse.spec.js",
-                "test": true,
-                "name": "parse.spec.js"
-            }
-        ],
-        "origin": "AUTHORED",
-        "mainFile": "src/url/parse.js"
+        "mainFile": "src/time/dateDiff.js"
     }
 }

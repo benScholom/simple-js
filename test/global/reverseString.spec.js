@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import reverseString from '../../src/string/reverse';
+import reverseString from '../../src/global/reverseString';
 
 describe('#reverseString()', () => {
 	it('should return "!dlrow olleH" if "Hello world!" is passed', () => {

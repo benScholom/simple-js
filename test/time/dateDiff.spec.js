@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import dateDiff from '../../src/date/diff';
+import dateDiff from '../../src/time/dateDiff';
 
 describe('dateDiff()', () => {
     it('should return a positive integer when date1 < date2', () => {
