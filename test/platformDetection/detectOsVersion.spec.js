@@ -13,7 +13,7 @@ const detectOsMock = {
 
 mockery.enable({ useCleanCache: true });
 mockery.registerMock('./detectOs', detectOsMock); 
-const detectOsVersion = require('../../src/platformDetection/detectOs');
+const detectOsVersion = require('../../src/platformDetection/detectOsVersion');
 
 
 describe('detectOsVersion', () => {
