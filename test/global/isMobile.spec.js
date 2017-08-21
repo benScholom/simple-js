@@ -6,7 +6,7 @@ let userAgent = '';
 
 describe('isMobile', () => {
     before(() => {
-        sinon.stub(isMobile, "getUserAgent", () => {return userAgent;});
+        sinon.stub(isMobile, "getUserAgent").callsFake(() => {return userAgent;});
     });
 
     it('.Android should return true for Android userAgent', () => {

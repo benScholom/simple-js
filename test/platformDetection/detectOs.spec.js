@@ -7,8 +7,8 @@ let platform = '';
 
 describe('detectOs', () => {
     before(() => {
-        sinon.stub(detectOs, "getUserAgent", () => userAgent);
-        sinon.stub(detectOs, "getPlatform", () => platform);
+        sinon.stub(detectOs, "getUserAgent").callsFake(() => userAgent);
+        sinon.stub(detectOs, "getPlatform").callsFake(() => platform);
     });
 
     it('.isAndroid should return true for Android userAgent even though platform is Linux', () => {

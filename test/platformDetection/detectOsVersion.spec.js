@@ -11,14 +11,14 @@ const detectOsMock = {
     }
 }
 
-mockery.enable({ useCleanCache: true });
+mockery.enable({ useCleanCache: true, warnOnUnregistered: false });
 mockery.registerMock('./detectOs', detectOsMock); 
 const detectOsVersion = require('../../src/platformDetection/detectOsVersion');
 
 
 describe('detectOsVersion', () => {
     before(() => {
-        sinon.stub(detectOsVersion, "getUserAgent", () => userAgent);   
+        sinon.stub(detectOsVersion, "getUserAgent").callsFake(() => userAgent);   
     });
 
     after(() => {
